@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Pet clinic" duration-ms="161754" started-at="2017-06-29T13:04:47Z" finished-at="2017-06-29T13:07:29Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="161754" started-at="2017-06-29T13:04:47Z" finished-at="2017-06-29T13:07:29Z">
+      <class name="com.test.uitests.SeleniumUITests">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.test.uitests.SeleniumUITests@3c09711b]" name="beforeTest" is-config="true" duration-ms="7754" started-at="2017-06-29T13:04:47Z" finished-at="2017-06-29T13:04:55Z">
+        </test-method>
+        <test-method status="PASS" signature="testAddOwner()[pri:0, instance:com.test.uitests.SeleniumUITests@3c09711b]" name="testAddOwner" duration-ms="110064" started-at="2017-06-29T13:04:55Z" finished-at="2017-06-29T13:06:45Z">
+        </test-method>
+        <test-method status="FAIL" signature="testPetTypes()[pri:0, instance:com.test.uitests.SeleniumUITests@3c09711b]" name="testPetTypes" duration-ms="10893" started-at="2017-06-29T13:06:45Z" finished-at="2017-06-29T13:06:56Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Page not found error occured]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Page not found error occured
+	at org.testng.Assert.fail(Assert.java:89)
+	at com.test.uitests.SeleniumUITests.testPetTypes(SeleniumUITests.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:691)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:883)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1208)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:758)
+	at org.testng.TestRunner.run(TestRunner.java:613)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1137)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1062)
+	at org.testng.TestNG.run(TestNG.java:974)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="testSpecialities()[pri:0, instance:com.test.uitests.SeleniumUITests@3c09711b]" name="testSpecialities" duration-ms="15645" started-at="2017-06-29T13:06:56Z" finished-at="2017-06-29T13:07:12Z">
+        </test-method>
+        <test-method status="PASS" signature="testVeterinarians()[pri:0, instance:com.test.uitests.SeleniumUITests@3c09711b]" name="testVeterinarians" duration-ms="15048" started-at="2017-06-29T13:07:12Z" finished-at="2017-06-29T13:07:27Z">
+        </test-method>
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.test.uitests.SeleniumUITests@3c09711b]" name="afterTest" is-config="true" duration-ms="2286" started-at="2017-06-29T13:07:27Z" finished-at="2017-06-29T13:07:29Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
